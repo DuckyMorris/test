@@ -1,0 +1,173 @@
+{
+    "GUI version": "0.5.4",
+    "continuous": [],
+    "events": [
+      {
+        "folder_name": "Message_Center-904.0/TEXT_group_1/",
+        "channel_name": "GUI Messages",
+        "description": "Messages from the GUI Message Center",
+        "identifier": "genericevent",
+        "sample_rate": 40000,
+        "type": "string",
+        "num_channels": 1,
+        "source_processor": "Message Center"
+      }
+    ],
+    "spikes": [
+      {
+        "folder_name": "Spike_Sorter-114.0/spike_group_1/",
+        "sample_rate": 40000,
+        "source_processor": "Spike Sorter",
+        "num_channels": 8,
+        "pre_peak_samples": 8,
+        "post_peak_samples": 32,
+        "event_metadata": [
+          {
+            "name": "Color",
+            "description": "Color of the spike",
+            "identifier": "graphics.color",
+            "type": "uint8",
+            "length": 3
+          }
+        ],
+        "channels": [
+          {
+            "channel_name": "ST  p114.0 n0",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 0
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 1
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n1",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 2
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 3
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n2",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 4
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 5
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n3",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 6
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 7
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n4",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 8
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 9
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n5",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 10
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 11
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n6",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 12
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 13
+              }
+            ]
+          },
+          {
+            "channel_name": "ST  p114.0 n7",
+            "description": "Stereotrode spike data source",
+            "identifier": "spikesource",
+            "source_channel_info": [
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 14
+              },
+              {
+                "source_processor_id": 110,
+                "source_processor_sub_idx": 0,
+                "source_processor_channel": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
